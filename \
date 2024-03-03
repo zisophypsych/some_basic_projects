@@ -1,0 +1,10 @@
+print("This will print Pyramid Pattern!!!")
+
+n = int(input("Enter the number: "))
+
+for i in range(n):
+    s = 1
+    for j in range(s):
+        print("*", end = " ")
+    s+=2
+    print()
