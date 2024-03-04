@@ -2,7 +2,7 @@ print("Welcome! This will print Fibonacci Series!")
 
 terms = int(input("Enter how many terms you want in Series: "))
 series = []
-for i in range(terms):
+for i in range(terms+1):
     if i == 0:
         series.append(0)
     elif i == 1:
